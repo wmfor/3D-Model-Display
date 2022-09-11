@@ -1,0 +1,671 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.0b16 (098023fe5c31) revision 622627'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16232 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unity\2022.1.0b16\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/ModelDisplay
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+57936
+Successfully changed project path to: C:/ModelDisplay
+C:/ModelDisplay
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 75.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.0b16 (098023fe5c31)
+[Subsystems] Discovering subsystems at path D:/unity/2022.1.0b16/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/ModelDisplay/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4019 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'D:/unity/2022.1.0b16/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2022.1.0b16/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/2022.1.0b16/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2022.1.0b16/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: D:/unity/2022.1.0b16/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/unity/2022.1.0b16/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/unity/2022.1.0b16/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/unity/2022.1.0b16/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.003253 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 76.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.737 seconds
+Domain Reload Profiling:
+	ReloadAssembly (738ms)
+		BeginReloadAssembly (75ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (553ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (136ms)
+				TypeCache.Initialize (136ms)
+					TypeCache.ScanAssembly (134ms)
+				ResolveRequiredComponents (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (335ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (76ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (77ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (122ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004517 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\ModelDisplay\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\ModelDisplay\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.142 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1143ms)
+		BeginReloadAssembly (222ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (130ms)
+		EndReloadAssembly (810ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (258ms)
+				TypeCache.Initialize (255ms)
+					TypeCache.ScanAssembly (249ms)
+				ResolveRequiredComponents (3ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (356ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3242 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (58.2 KB). Loaded Objects now: 3708.
+Memory consumption went from 499.3 MB to 499.2 MB.
+Total: 3.193200 ms (FindLiveObjects: 0.258800 ms CreateObjectMapping: 0.099400 ms MarkObjects: 2.756200 ms  DeleteObjects: 0.077600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 367395.987799 seconds.
+  path: Assets/Adobe_asset_ak-47textures
+  artifactKey: Guid(6e41022c79da9514089136bd2c95f21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures using Guid(6e41022c79da9514089136bd2c95f21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427f39f92a9625c59e190353b60232ca') in 0.006926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.666533 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.001_baseColor.png
+  artifactKey: Guid(46d6f65730b7c74479e2733a6338a07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.001_baseColor.png using Guid(46d6f65730b7c74479e2733a6338a07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee19a710347bafedf9d9bea67374a0f') in 0.080933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.008_metallic.png
+  artifactKey: Guid(de9b08f65c503ab48a4d1a5175d9522d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.008_metallic.png using Guid(de9b08f65c503ab48a4d1a5175d9522d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b79f7f67127619d6a4c68294dcd3c0') in 0.014554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.008_opacity.png
+  artifactKey: Guid(2fb441f25f2a4614b87162d9dbb6660d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.008_opacity.png using Guid(2fb441f25f2a4614b87162d9dbb6660d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc3043313a5f18808217c7365ce5c31') in 0.012639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.003_metallic.png
+  artifactKey: Guid(5b2b50b6de846d549a11c13d54680b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.003_metallic.png using Guid(5b2b50b6de846d549a11c13d54680b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33eeb346d90e0e69770409a57e895b0') in 0.011903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.009_glow.png
+  artifactKey: Guid(a93bcdd682e248840abe1d0507a4da22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.009_glow.png using Guid(a93bcdd682e248840abe1d0507a4da22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df4203b799d1126ed0de872ee646b88') in 0.012694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.003_glow.png
+  artifactKey: Guid(f7529185fb19b764bb10fe29bb62e7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.003_glow.png using Guid(f7529185fb19b764bb10fe29bb62e7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e0956a7e143687b163c70200136751') in 0.012923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.009_normal.png
+  artifactKey: Guid(38dab1ab55f01b544811379fcc98bf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.009_normal.png using Guid(38dab1ab55f01b544811379fcc98bf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00cb20a402c3f596de0b810242c4e5fc') in 0.053710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.001_roughness.png
+  artifactKey: Guid(f11ba3da970bc0f4fbb70465bb194c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.001_roughness.png using Guid(f11ba3da970bc0f4fbb70465bb194c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94695c2e10caa291e2994f39e195b900') in 0.014094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.009_metallic.png
+  artifactKey: Guid(7e35a86b69400c54cb500d420726131b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.009_metallic.png using Guid(7e35a86b69400c54cb500d420726131b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4af769a467f7961ed3794aa3fa37fda') in 0.013258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.005_glow.png
+  artifactKey: Guid(cdb3732f26effae408b2c3ef31673178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.005_glow.png using Guid(cdb3732f26effae408b2c3ef31673178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a214bb191eff2604e1e781e0cc314e9a') in 0.012871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.002_roughness.png
+  artifactKey: Guid(8f895d3c9a0f6c940b8e83e93c85cc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.002_roughness.png using Guid(8f895d3c9a0f6c940b8e83e93c85cc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6717404b832a42d2afa8c8c26554887') in 0.013798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.001_opacity.png
+  artifactKey: Guid(9949cfb8b457ef542827a7435318136f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.001_opacity.png using Guid(9949cfb8b457ef542827a7435318136f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79570448905beb1bf6890ed814bd553') in 0.013554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.007_roughness.png
+  artifactKey: Guid(602bf9be77048b74f8a7768dc5f668d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.007_roughness.png using Guid(602bf9be77048b74f8a7768dc5f668d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70ac0226afbf4f32964babb0884dc1b') in 0.027039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.010_normal.png
+  artifactKey: Guid(86590c938fb4eb643a2dc7573ea0ec82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.010_normal.png using Guid(86590c938fb4eb643a2dc7573ea0ec82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e632aca71beb004613bd34c308f1f4f') in 0.016867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.011_glow.png
+  artifactKey: Guid(0a6ca2647d35ff3428254d640f336968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.011_glow.png using Guid(0a6ca2647d35ff3428254d640f336968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335cd6b682876b07e5e1ce8ccd42ca9f') in 0.016181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.003_roughness.png
+  artifactKey: Guid(2e379165a229c534fb5a0bdd3e4c7625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.003_roughness.png using Guid(2e379165a229c534fb5a0bdd3e4c7625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2709241466504eaa7f212ade2a14676') in 0.017186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.005_metallic.png
+  artifactKey: Guid(e48ca0ccad21f9c4cbcf798acedb00f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.005_metallic.png using Guid(e48ca0ccad21f9c4cbcf798acedb00f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b803b484f677210a88c2d54215b1cb') in 0.014684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.012_roughness.png
+  artifactKey: Guid(d423c8689b0c27d4f900f2ed9c3f46fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.012_roughness.png using Guid(d423c8689b0c27d4f900f2ed9c3f46fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925f4c56650f07a20880e6e4b780d461') in 0.017522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.011_opacity.png
+  artifactKey: Guid(e6bd8f2fbbc0b384abbb6e6c6ccdc927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.011_opacity.png using Guid(e6bd8f2fbbc0b384abbb6e6c6ccdc927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9596168b51ddef9278215d2053375a4') in 0.014538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.011_roughness.png
+  artifactKey: Guid(34613fd8677b6a445a3f2bf5be82cb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.011_roughness.png using Guid(34613fd8677b6a445a3f2bf5be82cb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40773090df3ce2cb9864d559526f31c0') in 0.017714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.002_normal.png
+  artifactKey: Guid(693cc026be89b5f41a566180f019b1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.002_normal.png using Guid(693cc026be89b5f41a566180f019b1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4869f411b5c390783ee10177cadb5094') in 0.017855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.010_glow.png
+  artifactKey: Guid(f536fd4239ada254b92a7a0d1e3be8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.010_glow.png using Guid(f536fd4239ada254b92a7a0d1e3be8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f92904d0698677f9374cde03bb7f10c') in 0.014615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.008_glow.png
+  artifactKey: Guid(f8ac894736172fc4f8fc392b0bcd046f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.008_glow.png using Guid(f8ac894736172fc4f8fc392b0bcd046f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0435075573e31fc517c8bb6d7a839c5') in 0.016354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.013_roughness.png
+  artifactKey: Guid(094c71c40e128ea48a8e9b77efcaefb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.013_roughness.png using Guid(094c71c40e128ea48a8e9b77efcaefb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53770112794e627de8484dd81ee8e730') in 0.014908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.012_glow.png
+  artifactKey: Guid(b990238e0deb06d40a68fc222a097797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.012_glow.png using Guid(b990238e0deb06d40a68fc222a097797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce164c57b55e8a46c8d2c881482a4e0') in 0.015942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.003_opacity.png
+  artifactKey: Guid(4f70c4949fdfbfc428d2422f6eed3690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.003_opacity.png using Guid(4f70c4949fdfbfc428d2422f6eed3690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22acba8bbbc3864f61d9eee968ea8668') in 0.014994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.009_roughness.png
+  artifactKey: Guid(6540ca32fb0f37549a6dd2f6f16905df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.009_roughness.png using Guid(6540ca32fb0f37549a6dd2f6f16905df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2c06e3ad1f5c9ff4f422e49a3418df') in 0.015324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.012_opacity.png
+  artifactKey: Guid(729762512cd4f5744a2f15ab00d7348e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.012_opacity.png using Guid(729762512cd4f5744a2f15ab00d7348e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e96615d9a797a33831f37cc4f9b34f') in 0.014925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.011_metallic.png
+  artifactKey: Guid(eb66bae3bad0b284b8e738cf9d537182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.011_metallic.png using Guid(eb66bae3bad0b284b8e738cf9d537182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2054b4efa82b4e6fe6f39a5d59cb0165') in 0.016398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.013_normal.png
+  artifactKey: Guid(f7bc5f17b8bdd3b4d88671e84a920d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.013_normal.png using Guid(f7bc5f17b8bdd3b4d88671e84a920d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240a65f8aab7fc3bb9b8ccff1c631dc3') in 0.017060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.012_baseColor.png
+  artifactKey: Guid(ad712d2fc37095c40b1f8a9ad13a8bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.012_baseColor.png using Guid(ad712d2fc37095c40b1f8a9ad13a8bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12283b07578ef54c89c9078dbadc6811') in 0.014122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.016_baseColor.png
+  artifactKey: Guid(834f4115eb470a94fbf5bc170c45d9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.016_baseColor.png using Guid(834f4115eb470a94fbf5bc170c45d9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfc35e749c7da862f0b0c564a570469') in 0.014490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.001_glow.png
+  artifactKey: Guid(c8c13b64183c3be42af3898d4abd0623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.001_glow.png using Guid(c8c13b64183c3be42af3898d4abd0623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d7d3741b9b951e3b39becbf04fca23') in 0.013499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.016_metallic.png
+  artifactKey: Guid(ecd5b97ca76534d4f843fcbe2cb63acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.016_metallic.png using Guid(ecd5b97ca76534d4f843fcbe2cb63acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee26349b49879c68dcc5c96f683bd4a') in 0.014607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.020_metallic.png
+  artifactKey: Guid(11cd95dadf706434aad26f23a02cbe29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.020_metallic.png using Guid(11cd95dadf706434aad26f23a02cbe29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d7052f04a5e317d1c0c85d633248d2') in 0.016837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.023_opacity.png
+  artifactKey: Guid(3f7d79d46944ffc47869c62745c7f777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.023_opacity.png using Guid(3f7d79d46944ffc47869c62745c7f777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fcdc44f6bffbea9689e623b541f5013') in 0.016617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.025_glow.png
+  artifactKey: Guid(80e92b6854e7ddc4b8b169cb570e2a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.025_glow.png using Guid(80e92b6854e7ddc4b8b169cb570e2a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b20c4cc9980a8654afd983d605dc27') in 0.017047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.019_metallic.png
+  artifactKey: Guid(754d17b37f8671f4bacf9af8a5304759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.019_metallic.png using Guid(754d17b37f8671f4bacf9af8a5304759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7044f8fd5b48a813297d7292f6f04e') in 0.016631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.016_roughness.png
+  artifactKey: Guid(c65ac11e8c899ee4384f926612d25597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.016_roughness.png using Guid(c65ac11e8c899ee4384f926612d25597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c982dd8cb97fbc7ebe15b422a7db85b') in 0.014439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.021_opacity.png
+  artifactKey: Guid(e6c8b66293d630e4fbeade9af71f9041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.021_opacity.png using Guid(e6c8b66293d630e4fbeade9af71f9041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c180086abd258a22684655d189d7a622') in 0.014287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.029_normal.png
+  artifactKey: Guid(ca77c714b1392c44094d5cfe8915d844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.029_normal.png using Guid(ca77c714b1392c44094d5cfe8915d844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603e76ee533ed31c39ca72ce04ccd4f7') in 0.018666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.029_glow.png
+  artifactKey: Guid(ecb9508537af07b46b34a8306fb1344c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.029_glow.png using Guid(ecb9508537af07b46b34a8306fb1344c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e55a77683f4e21e1785824cc12cb4aa') in 0.012823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.010_opacity.png
+  artifactKey: Guid(cf94d20bbf30bc542abe5e7d426dffa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.010_opacity.png using Guid(cf94d20bbf30bc542abe5e7d426dffa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc95eb413a9ddf116663fb3ab4653e3') in 0.014516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.021_metallic.png
+  artifactKey: Guid(ddabcb6451bf0944e812873290ce5653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.021_metallic.png using Guid(ddabcb6451bf0944e812873290ce5653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1f7e04937412edc575121a2f4cda41') in 0.014642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.052_metallic.png
+  artifactKey: Guid(dfdf36ffce5b6c04496f0b64335daa3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.052_metallic.png using Guid(dfdf36ffce5b6c04496f0b64335daa3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d561fe5882dad3c516f9285c53e95b') in 0.015337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.050_baseColor.png
+  artifactKey: Guid(4c8500b6fa1ea9146ad986231f3f0b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.050_baseColor.png using Guid(4c8500b6fa1ea9146ad986231f3f0b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b614df2b808f4f95a146e33f7118ceef') in 0.014318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.012_normal.png
+  artifactKey: Guid(92dcb48cdabbb8a46826de23d70c2234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.012_normal.png using Guid(92dcb48cdabbb8a46826de23d70c2234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49bf3810debac0ab021eeeac8e866b0') in 0.015719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.006_roughness.png
+  artifactKey: Guid(b25925d2c5a490e4c81bcd7286b2e00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.006_roughness.png using Guid(b25925d2c5a490e4c81bcd7286b2e00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d608d1277219d3aae07583b8b0b04ce') in 0.014946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.002_baseColor.png
+  artifactKey: Guid(30a430bf8dbdc6b4cb9bfc558754b8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.002_baseColor.png using Guid(30a430bf8dbdc6b4cb9bfc558754b8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eccef22dbf2176bd77efd6c720b34b57') in 0.013370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.023_glow.png
+  artifactKey: Guid(1cb3674b5f64f35478b4cce66556d29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.023_glow.png using Guid(1cb3674b5f64f35478b4cce66556d29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96014a2a5e9a964d11c523fdcbf61a2') in 0.014722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.003_normal.png
+  artifactKey: Guid(a15acbd9eb383f249b07c10897143e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.003_normal.png using Guid(a15acbd9eb383f249b07c10897143e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e43cd9e64c59501385114d86834d60e') in 0.016892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.020_opacity.png
+  artifactKey: Guid(8b3bdf54bba632241aae29ad03362e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.020_opacity.png using Guid(8b3bdf54bba632241aae29ad03362e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb27cca7b2488c73cafb97ad3774c88') in 0.015328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.023_roughness.png
+  artifactKey: Guid(1ac4121a2eb45ec408e7353efcb6f4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.023_roughness.png using Guid(1ac4121a2eb45ec408e7353efcb6f4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabc90198e293a81a5e118429a228220') in 0.013619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.019_roughness.png
+  artifactKey: Guid(0cfa2d6f4b0b2c240860fe202813b7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.019_roughness.png using Guid(0cfa2d6f4b0b2c240860fe202813b7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a38f4cbba492f2549ce0eae7f746e8c') in 0.015793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.007_normal.png
+  artifactKey: Guid(fb88cf4e5cf745a469c4cbd97310b0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.007_normal.png using Guid(fb88cf4e5cf745a469c4cbd97310b0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5426ac92cda509f81a3d6b74aa608c4') in 0.015493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.005_baseColor.png
+  artifactKey: Guid(1ca400a4d7d2b6f4698418dae652b2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.005_baseColor.png using Guid(1ca400a4d7d2b6f4698418dae652b2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397a0c9d89243ebd599aa131d02b8ad0') in 0.014411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.050_roughness.png
+  artifactKey: Guid(ce6bfbfc05a585d48a3ba8e4ec89ffe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.050_roughness.png using Guid(ce6bfbfc05a585d48a3ba8e4ec89ffe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eacbda714ecc6c20e1cf28810279739') in 0.013668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.020_glow.png
+  artifactKey: Guid(804ca226b84f6c043b706c1b972b447b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.020_glow.png using Guid(804ca226b84f6c043b706c1b972b447b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5078a41c62dbcbd5d335054cefd8c5') in 0.014596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.018_metallic.png
+  artifactKey: Guid(b9ae739a210bf74468e29919fde93639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.018_metallic.png using Guid(b9ae739a210bf74468e29919fde93639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb8cf1cdfb600ede29e8b4e75403b0e') in 0.013734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.029_roughness.png
+  artifactKey: Guid(ddd998e3b835f8148a947fcede8faf60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.029_roughness.png using Guid(ddd998e3b835f8148a947fcede8faf60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac7fa54833589c088caea8ed8739e21') in 0.013600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.025_metallic.png
+  artifactKey: Guid(231c207419675eb48ad3ff9bc3feed8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.025_metallic.png using Guid(231c207419675eb48ad3ff9bc3feed8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e96bf97180b4e9fd2d20c72b54cad74') in 0.013561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.029_metallic.png
+  artifactKey: Guid(9f145ff47a6c6ba4d9d27d8dbd8b05f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.029_metallic.png using Guid(9f145ff47a6c6ba4d9d27d8dbd8b05f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4b12b95a2925e0f08bf7d1184599b1') in 0.014809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.051_baseColor.png
+  artifactKey: Guid(0a6d58da48f93b74b9090fce5426b07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.051_baseColor.png using Guid(0a6d58da48f93b74b9090fce5426b07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321b778a8c553137bed897ba144aee24') in 0.013886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.021_glow.png
+  artifactKey: Guid(2531988e4b260f4468e998378c08739a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.021_glow.png using Guid(2531988e4b260f4468e998378c08739a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333ffad182ebce155582642b99055851') in 0.013900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.019_baseColor.png
+  artifactKey: Guid(79bcffeb24c825341a9d74baf82b262a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.019_baseColor.png using Guid(79bcffeb24c825341a9d74baf82b262a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade87eabad266bcc867cec575aa95e8a') in 0.015029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.007_glow.png
+  artifactKey: Guid(21c5c2b2d1ab57140823c7fc8f23cf74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.007_glow.png using Guid(21c5c2b2d1ab57140823c7fc8f23cf74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc09af32775387f8e4e16a43ec155ced') in 0.013783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.015_baseColor.png
+  artifactKey: Guid(a657140e6a2dd004d97707efe7309a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.015_baseColor.png using Guid(a657140e6a2dd004d97707efe7309a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222cad6db6c7f0557b8bb6eaebddc5d0') in 0.015171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.019_opacity.png
+  artifactKey: Guid(93a6c856ded57d04d9eaf04117782ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.019_opacity.png using Guid(93a6c856ded57d04d9eaf04117782ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7d58561a9f700fa116f26bb1a0d9de') in 0.014131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.050_normal.png
+  artifactKey: Guid(a9bb88f1e431650428b5c8f4579d44a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.050_normal.png using Guid(a9bb88f1e431650428b5c8f4579d44a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a738c750f89cccaf52d10d3d1a62dc8') in 0.016227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.015_roughness.png
+  artifactKey: Guid(7263993344ed63f4bac566d449f7825f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.015_roughness.png using Guid(7263993344ed63f4bac566d449f7825f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d94cc24d7dfbe4866a52e0653bdfb5') in 0.013994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.025_normal.png
+  artifactKey: Guid(62fffa789c7ec47429a0bc6726844dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.025_normal.png using Guid(62fffa789c7ec47429a0bc6726844dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7b7c0aba34fca78021bcf38b9a8558') in 0.015423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.051_normal.png
+  artifactKey: Guid(17e99d0e13f0e3341afb2b9d8f65828a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.051_normal.png using Guid(17e99d0e13f0e3341afb2b9d8f65828a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d0b90d2894373a7600ad1fcdee3a43') in 0.016666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.029_opacity.png
+  artifactKey: Guid(bd952a7eda0014e40a5024b4b83aca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.029_opacity.png using Guid(bd952a7eda0014e40a5024b4b83aca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac128ca36c60351c54e754dd33993db2') in 0.015569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.050_metallic.png
+  artifactKey: Guid(1d3e4423ffe5035499036e575cd4b275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.050_metallic.png using Guid(1d3e4423ffe5035499036e575cd4b275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b771617fec32e380119f62f7ac9c26') in 0.013395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.018_normal.png
+  artifactKey: Guid(1f225a38072abcc45a05381b28deb300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.018_normal.png using Guid(1f225a38072abcc45a05381b28deb300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9861a09d3df83d7ed095c8e59c2fc9b1') in 0.016517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.010_metallic.png
+  artifactKey: Guid(b4f72c5324179744c92ef78651c4dc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.010_metallic.png using Guid(b4f72c5324179744c92ef78651c4dc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763c70082424e0665b159114b3e94131') in 0.014649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.010_baseColor.png
+  artifactKey: Guid(63791dc6f75f682479caafbe7f391fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.010_baseColor.png using Guid(63791dc6f75f682479caafbe7f391fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f6a83c2e01ee77f347a42ae8e0195b') in 0.018246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.051_roughness.png
+  artifactKey: Guid(d6b350ae89847b2458f2f816984f5e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.051_roughness.png using Guid(d6b350ae89847b2458f2f816984f5e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ca0339a82fe841edd321ddb72cb2c0') in 0.016460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.008_normal.png
+  artifactKey: Guid(179533f77648a5a4d9c1496e65c5c866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.008_normal.png using Guid(179533f77648a5a4d9c1496e65c5c866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf17cc8fc97fb7de38128651d8cf856') in 0.016873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Adobe_asset_ak-47textures/Material.012_metallic.png
+  artifactKey: Guid(b4a506cccc3b3004d91b1fd0091b0062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe_asset_ak-47textures/Material.012_metallic.png using Guid(b4a506cccc3b3004d91b1fd0091b0062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b73b5e683278a5c1166035fd90b100') in 0.014965 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
